@@ -1,0 +1,57 @@
+html {
+    font-family: Helvetica, serif, sans-serif;
+    font-size: 16px;
+}
+
+
+main {
+    padding: .5rem 1.5rem;
+}
+
+.row {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.strong {
+    font-size: 1.2rem;
+}
+
+.container {
+    padding: .5rem 1.5rem;
+}
+
+.bubble {
+    border: 3px solid transparent;
+    border-radius: 1rem;
+    background: #e9c46a;
+    text-align: center;
+}
+
+.bubble button{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+}
+
+.bubble:hover {
+    border: 3px solid #264653;
+}
+
+.bubble:hover button
+{
+   color: #264653;
+}
+
+.bubble table {
+    text-align: left;
+}
+
+
+.bubble table td {
+    padding: 0 1rem;
+}
+

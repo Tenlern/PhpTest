@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Курс валют</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+<main>
+    <div class="row">
+        <div class="bubble">
+            <div class="container">
+                <table>
+                    <tr>
+                        <td>Москва</td>
+                        <td id="js-date"></td>
+                    </tr>
+                    <tr class="strong">
+                        <td>Температура</td>
+                        <td id="js-temperature"></td>
+                    </tr>
+                    <tr class="strong">
+                        <td>Ощущается как</td>
+                        <td id="js-feelslike-temperature"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" id="js-description"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="bubble square">
+            <button id="update"><i class="fas fa-sync-alt"></i></button>
+        </div>
+    </div>
+
+    <div class="row" id="js-currency"></div>
+</main>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
+</html>
