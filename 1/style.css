@@ -37,11 +37,11 @@ main {
     border: none;
 }
 
-.bubble:hover {
+#update.bubble:hover {
     border: 3px solid #264653;
 }
 
-.bubble:hover button
+#update.bubble:hover button
 {
    color: #264653;
 }
